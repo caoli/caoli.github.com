@@ -1,0 +1,48 @@
+[
+    {
+        "title": "翻译： Waf 教程",
+        "path": "2012-03-27-trans-waf-tutorial",
+        "tags": ["python", "waf", "tutorial", "build"],
+        "date": "2012-03-23"
+    },{
+        "title": "Sumlime text 2 插件： Eval Sel",
+        "path": "2012-03-23-plugin-eval-sel",
+        "tags": ["python", "sublime", "plugin"],
+        "date": "2012-03-23"
+    },{
+        "title": "找到拥有相同标签的用户对",
+        "path": "2012-03-06-users-pair-with-same-tags",
+        "tags": ["python", "algorithm"],
+        "date": "2012-03-06"
+    },{
+        "title": "Python 对象内存占用",
+        "path": "2012-02-20-python-object-memory-usage",
+        "tags": ["python", "memory"],
+        "date": "2012-02-20"
+    },{
+        "title": "在Github上写博客",
+        "path": "2012-01-29-write-blog-on-github",
+        "tags": ["github", "blog", "markdown"],
+        "date": "2012-01-29"
+    },{
+        "title": "关于作者",
+        "path": "about",
+        "tags": ["about"],
+        "date": "2012-01-29"    
+    },{
+        "title": "初次尝试Chrome扩展开发——以幻灯片方式显示网页内的图片",
+        "path": "2011-09-17-chrome-image-gallery",
+        "tags": ["Chrome", "Javascript"],
+        "date": "2010-04-20"    
+    },{
+        "title": "在MFC程序中显示WPF窗口",
+        "path": "2010-04-20-show-wpf-window-in-mfc",
+        "tags": ["WPF", "MFC", "C#", "C/C++"],
+        "date": "2010-04-20"    
+    },{
+        "title": "gSoap使用笔记",
+        "path": "2010-03-30-gsoap-note",
+        "tags": ["gSoap", "C/C++"],
+        "date": "2010-03-30"    
+    }
+]
