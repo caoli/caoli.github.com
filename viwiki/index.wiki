@@ -1,0 +1,38 @@
+%title Vimwiki使用指南
+
+Vimwiki是一个非常好的工具，编辑文本，输出格式化的html。
+
+
+==安装==
+===从vim官方插件store下载该插件，source %，就安装好了===
+你可以下载
+    todo:ba，so;<br /> 
+    你可以看到这是; <br />       
+    一个blockquote。<br />    
+    是的. <br />
+    这里的回车是通过S-CR实现的<br />
+    
+        
+===做一些配置===
+路径的设置
+{{{class = "brush: bash"
+        noremap <M-F8> zm
+        noremap <F8> zr 
+        map <F12> :VimwikiAll2HTML<cr>
+        map <M-F12> :exec 'silent !"cmd.exe /k cd '.VimwikiGet('path_html').'" & update.bat"'<cr>
+        let g:vimwiki_camel_case = 0
+        let g:vimwiki_menu = ''
+        let g:vimwiki_html_header_numbering = 2
+        let g:vimwiki_folding = 1
+	let g:vimwiki_use_mouse = 1
+	let g:vimwiki_list = [{
+				\"path":"e:/coolingggblog",
+				\"path_html":"e:/coolingggblog",
+				\"html_header":$VIMRUNTIME."/vimwiki/html_template/header.tpl",
+				\"html_footer":$VIMRUNTIME."/vimwiki/html_template/footer.tpl",
+                                \"nested_syntaxes": {'ASM': 'asm', 'C': 'c', 'C++': 'cpp', 'Perl': 'perl', 'Python': 'python', 'Java': 'java', 'PHP': 'php', 'HTML': 'html', 'BASH': 'sh', 'VIM': 'vim', 'MAKE': 'make'},
+				\}]
+
+}}}
+
+
